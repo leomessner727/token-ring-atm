@@ -1,0 +1,9 @@
+12:59:21.576 [ATM1] Avviato su 127.0.0.1:5001, successore ATM2 (porta 5002)
+12:59:21.578 [ATM1] Possiedo il token iniziale (saldo 1000)
+12:59:21.579 [ATM1] Nessuna richiesta in attesa
+12:59:22.581 [ATM1] Token inoltrato a ATM2
+12:59:30.208 [ATM1] Token ricevuto (passaggio n. 4, saldo 400)
+12:59:30.211 [ATM1] Nessuna richiesta in attesa
+12:59:31.213 [ATM1] Token inoltrato a ATM2
+12:59:34.295 [ATM1] Token ricevuto (passaggio n. 8, saldo 400)
+12:59:34.296 [ATM1] Nessuna richiesta in attesa

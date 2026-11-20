@@ -1,0 +1,10 @@
+12:59:22.110 [ATM2] Avviato su 127.0.0.1:5002, successore ATM3 (porta 5003)
+12:59:22.112 [ATM2] Richiesta da eseguire: prelievo 200
+12:59:22.603 [ATM2] Token ricevuto (passaggio n. 1, saldo 1000)
+12:59:22.605 [ATM2] >>> INIZIO transazione: prelievo 200 (saldo letto: 1000)
+12:59:24.107 [ATM2] <<< FINE transazione: prelievo 200 eseguito
+12:59:24.111 [ATM2] Saldo aggiornato: 1000 -> 800
+12:59:25.115 [ATM2] Token inoltrato a ATM3
+12:59:31.238 [ATM2] Token ricevuto (passaggio n. 5, saldo 400)
+12:59:31.240 [ATM2] Nessuna richiesta in attesa
+12:59:32.242 [ATM2] Token inoltrato a ATM3

@@ -1,0 +1,10 @@
+12:59:23.140 [ATM4] Avviato su 127.0.0.1:5004, successore ATM1 (porta 5001)
+12:59:23.142 [ATM4] Richiesta da eseguire: prelievo 500
+12:59:27.662 [ATM4] Token ricevuto (passaggio n. 3, saldo 900)
+12:59:27.666 [ATM4] >>> INIZIO transazione: prelievo 500 (saldo letto: 900)
+12:59:29.169 [ATM4] <<< FINE transazione: prelievo 500 eseguito
+12:59:29.173 [ATM4] Saldo aggiornato: 900 -> 400
+12:59:30.178 [ATM4] Token inoltrato a ATM1
+12:59:33.271 [ATM4] Token ricevuto (passaggio n. 7, saldo 400)
+12:59:33.273 [ATM4] Nessuna richiesta in attesa
+12:59:34.275 [ATM4] Token inoltrato a ATM1

@@ -1,0 +1,17 @@
+﻿=== Sequenza globale ===
+12:59:22.605 [ATM2] >>> INIZIO transazione: prelievo 200 (saldo letto: 1000)
+12:59:24.107 [ATM2] <<< FINE transazione: prelievo 200 eseguito
+12:59:24.111 [ATM2] Saldo aggiornato: 1000 -> 800
+12:59:25.132 [ATM3] >>> INIZIO transazione: deposito 100 (saldo letto: 800)
+12:59:26.633 [ATM3] <<< FINE transazione: deposito 100 eseguito
+12:59:26.635 [ATM3] Saldo aggiornato: 800 -> 900
+12:59:27.666 [ATM4] >>> INIZIO transazione: prelievo 500 (saldo letto: 900)
+12:59:29.169 [ATM4] <<< FINE transazione: prelievo 500 eseguito
+12:59:29.173 [ATM4] Saldo aggiornato: 900 -> 400
+
+=== Risultato ===
+Transazioni eseguite: 3, rifiutate: 0
+Saldo finale: 400
+Un solo possessore del token alla volta: OK
+Nessuna transazione concorrente: OK
+Saldo sempre coerente tra una transazione e l'altra: OK
