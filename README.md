@@ -49,8 +49,8 @@ python verifica_log.py --tutto  # anche tutti i passaggi del token
 
 Lo script unisce i 4 log in ordine di tempo e controlla che il token sia sempre in un solo
 nodo, che non ci siano transazioni concorrenti e che ogni transazione parta dal saldo
-lasciato dalla precedente. Nella cartella `log_esempio/` ci sono i log di un'esecuzione
-dell'esempio della traccia.
+lasciato dalla precedente. I file `ATM1.log` ... `ATM4.log` e `verifica.txt` nel repository sono
+i log e il risultato della verifica di un'esecuzione dell'esempio della traccia.
 
 ## File
 
@@ -59,12 +59,12 @@ dell'esempio della traccia.
 | `atm.py` | il nodo ATM: rete, gestione del token, sezione critica, input da tastiera |
 | `config.py` | porte, saldo iniziale, tempi (pausa del token, durata della transazione) |
 | `verifica_log.py` | unione e controllo dei log |
-| `log_esempio/` | log di esempio |
-| `video/` | video dimostrativo |
+| `ATM1.log` ... `ATM4.log`, `verifica.txt` | log di esempio e risultato della verifica |
+| `demo_token_ring.mp4` | video dimostrativo (si scarica con *View raw*) |
 
 ## Video dimostrativo
 
-Il video si trova in `video/demo_token_ring.mp4` (1:55, senza tagli) e mostra i 4 nodi in terminali
+Il video e' il file `demo_token_ring.mp4` (1:55, senza tagli) e mostra i 4 nodi in terminali
 separati (in alto a sinistra ATM1, in alto a destra ATM2, in basso a sinistra ATM3, in basso a destra ATM4),
 la circolazione del token e l'esecuzione delle transazioni. Tempi indicativi:
 
